@@ -3,7 +3,7 @@ import os
 import json
 import requests
 import argparse
-from tld import get_fld
+from tld import get_tld, get_fld
 
 CONFIGURATION_FILE = os.path.expanduser('~/') + '.cloudflare-ddns'
 
